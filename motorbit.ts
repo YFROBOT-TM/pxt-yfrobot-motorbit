@@ -304,7 +304,7 @@ namespace motorbit {
      * @param protocol IR protocol. eg: motorbit.IrProtocol.NEC
      */
     //% subcategory="IR Receiver"
-    //% blockId="makerbit_infrared_connect_receiver"
+    //% blockId="motorbit_infrared_connect_receiver"
     //% block="connect IR receiver at pin %pin and decode %protocol"
     //% pin.fieldEditor="gridpicker"
     //% pin.fieldOptions.columns=4
@@ -386,7 +386,7 @@ namespace motorbit {
      * @param handler body code to run when event is raised
      */
     //% subcategory="IR Receiver"
-    //% blockId=makerbit_infrared_on_ir_button
+    //% blockId=motorbit_infrared_on_ir_button
     //% block="on IR button | %button | %action"
     //% button.fieldEditor="gridpicker"
     //% button.fieldOptions.columns=3
@@ -409,7 +409,7 @@ namespace motorbit {
      * Returns the code of the IR button that was pressed last. Returns -1 (IrButton.Any) if no button has been pressed yet.
      */
     //% subcategory="IR Receiver"
-    //% blockId=makerbit_infrared_ir_button_pressed
+    //% blockId=motorbit_infrared_ir_button_pressed
     //% block="IR button"
     //% weight=10
     export function irButton(): number {
@@ -423,7 +423,7 @@ namespace motorbit {
      * Returns true if any button was pressed since the last call of this function. False otherwise.
      */
     //% subcategory="IR Receiver"
-    //% blockId=makerbit_infrared_was_any_button_pressed
+    //% blockId=motorbit_infrared_was_any_button_pressed
     //% block="any IR button was pressed"
     //% weight=7
     export function wasAnyIrButtonPressed(): boolean {
@@ -443,7 +443,7 @@ namespace motorbit {
      * @param button the button
      */
     //% subcategory="IR Receiver"
-    //% blockId=makerbit_infrared_button_code
+    //% blockId=motorbit_infrared_button_code
     //% button.fieldEditor="gridpicker"
     //% button.fieldOptions.columns=3
     //% button.fieldOptions.tooltips="false"
