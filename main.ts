@@ -1,5 +1,5 @@
 /** 
- * @file pxt-yfrobot-motorbit/motorbit.ts
+ * @file pxt-yfrobot-motorbit
  * @brief YFROBOT's MotorBit makecode library.
  * @n This is a MakeCode graphics programming extension 
  *    for MicroBit motor drive expansion board.

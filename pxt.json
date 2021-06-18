@@ -7,7 +7,7 @@
         "core": "*"
     },
     "files": [
-        "motorbit.ts",
+        "main.ts",
         "_locales/zh-cn/motorbit-strings.json",
         "_locales/zh-cn/motorbit-jsdoc-strings.json",
         "_locales/zh-tw/motorbit-strings.json",
